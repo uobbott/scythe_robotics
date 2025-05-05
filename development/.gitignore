@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Terraform plan
+*.tfplan
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform directories
+.terraform/
+
+# VS Code settings
+.vscode/
+
+# JSON & log files
+*.json
+*.log
