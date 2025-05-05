@@ -97,7 +97,9 @@ The following AWS resources are created:
 
 ### Deployment
 
-1. Initialize Terraform:
+**Note**: All the terrafrom commands must be run from the development Directory
+
+1. Initialize Terraform 
    ```
    terraform init
    ```
