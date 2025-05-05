@@ -18,7 +18,7 @@ The infrastructure consists of the following components:
 - **Target Group** for routing traffic to EC2 instances
 - **HTTP Listener** with redirection to HTTPS
 - **HTTPS Listener** with a self-signed certificate
-- **Elastic IP** attached to the ALB for stable addressing
+- **Elastic IP** created specifically for inclusion in the self-signed certificate's Subject Alternative Name (SAN) field to enable HTTPS via IP
 
 ### 3. EC2 Instance (modules/ec2)
 - **EC2 Instance** in private subnet
